@@ -4,7 +4,7 @@
 
 	<groupId>com.mulesoft.review</groupId>
 	<artifactId>mulerev</artifactId>
-	<version>3.1.8-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>maven-plugin</packaging>
 
 	<name>mulerev Maven Plugin</name>
