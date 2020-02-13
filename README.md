@@ -15,19 +15,17 @@ Go to root of the mulerev project and run mvn clean install.
 Add plugin details in mule project and run mvn clean intsall/package/build
 
 <plugin>
-				<groupId>com.mulesoft.review</groupId>
-				<artifactId>mulerev</artifactId>
-				<version>3.1.8-SNAPSHOT</version>
-				<executions>
-					<execution>
-						<configuration>
-							<sourceXmlFilePathDirectory>${project.basedir}/src/main/mule/</sourceXmlFilePathDirectory>
-							<sourceConfigFilePathDirectory>${project.basedir}/src/main/resources/</sourceConfigFilePathDirectory>
-							<applicationName>${name}</applicationName>
-						</configuration>
-						<goals>
-							<goal>MuleRev</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+<groupId>com.mulesoft.review</groupId>
+<artifactId>mulerev</artifactId>
+<version>1.0.0</version>
+<executions>
+<execution>
+<configuration>	<sourceXmlFilePathDirectory>${project.basedir}/src/main/mule/</sourceXmlFilePathDirectory>				<sourceConfigFilePathDirectory>${project.basedir}/src/main/resources/</sourceConfigFilePathDirectory>
+<applicationName>${name}</applicationName>
+</configuration>
+<goals>
+<goal>MuleRev</goal>
+</goals>
+</execution>
+</executions>
+</plugin>
